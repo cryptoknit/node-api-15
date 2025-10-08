@@ -1,10 +1,11 @@
 {
   "name": "api-15",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small Express API scaffolded by **RunWell**.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,13 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptoknit/node-api-15.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptoknit/node-api-15/issues"
+  },
+  "homepage": "https://github.com/cryptoknit/node-api-15#readme"
 }
